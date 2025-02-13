@@ -1,2 +1,29 @@
 hello 
 machine learning Day1
+
+#how to know which dataset is good and important.
+
+1. Relevance to the Problem
+    a.  dataset contiain feature(input) and target??
+        eg -  spam detection model? i need email text + spam labels (yes/no)
+
+2. Data Quality 
+    a. Completness
+    b. Accuracy
+    c. Consistency
+
+3. Dataset Size - we have to enough dataset beacuse its help to improve model performance.
+
+4. Feature Richness - help to contribute to predictions.
+    eg - if predicting house prices, a datadet with location, size, bedroom, crime rate is better than one with only size.
+
+5. Diversity and Bias - Does the dataset represent the real world population. 
+    eg - A facial recogition dataset with only one ethnicity will fail for others.
+
+6. Availability & legality - is the dataset open source. (kaggle, google Dataset)
+
+7. Ease of access & preprocessing - must be imported into your system (CSV, JSON, SQL)?, or is feature engineering required?
+
+8. Histogram, heat map,  
+
+
